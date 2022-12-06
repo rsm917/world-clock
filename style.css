@@ -1,3 +1,8 @@
+body {
+  background-color: #f9f7fe;
+  font-family: sans-serif;
+}
+
 h1 {
   font-size: 36px;
   text-align: center;
@@ -5,4 +10,51 @@ h1 {
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
+}
+select {
+  border-radius: 4px;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: block;
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+.date {
+  margin: 0;
+  padding: 0px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.time {
+  font-size: 48px;
+}
+.time small {
+  font-size: 22px;
+}
+footer {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  text-align: center;
 }
