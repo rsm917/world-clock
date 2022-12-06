@@ -9,47 +9,51 @@
     <link rel="stylesheet" href="style.css" />
     <title>World Clock</title>
   </head>
+
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city..</option>
-
-        <option value="London">London</option>
-        <option value="New_York">New York</option>
-        <option value="Seoul">Seoul</option>
-        <option value="Madrid">Madrid</option>
-        <option value="Sydney">Sydney</option>
+        <option value="current">My current timezone</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <option value="Australia/Sydney">Sydney</option>
       </select>
 
       <div id="cities">
-        <div class="city">
+        <div class="city" id="chicago">
           <div>
             <h2>Chicago</h2>
-            <div class="date">December 5th 2022</div>
+            <div class="date"></div>
           </div>
-          <div class="time">5:45 PM</div>
+          <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="dublin">
           <div>
             <h2>Dublin</h2>
-            <div class="date">December 5th 2022</div>
+            <div class="date"></div>
           </div>
-          <div class="time">5:45 PM</div>
+          <div class="time"></div>
         </div>
-        <div class="city">
+
+        <div class="city" id="athens">
           <div>
             <h2>Athens</h2>
-            <div class="date">December 5th 2022</div>
+            <div class="date"></div>
           </div>
-          <div class="time">5:45 PM</div>
+          <div class="time"></div>
         </div>
       </div>
     </div>
 
     <footer>
       Coded by <strong>Rebecca Shuping</strong> and is
-      <a href="#" target="_blank">open-sourced</a>
+      <a href="https://github.com/rsm917/world-clock" target="_blank"
+        >open-sourced</a
+      >
       on GitHub
     </footer>
     <script src="index.js"></script>
