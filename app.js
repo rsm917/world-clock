@@ -30,3 +30,5 @@ function updateTime() {
     );
   }
 }
+updateTime();
+setInterval(updateTime, 1000);
