@@ -52,9 +52,23 @@ select {
 .time small {
   font-size: 22px;
 }
+#home-link a {
+  text-decoration: none;
+}
+#home-link:hover {
+  text-decoration: underline;
+}
 footer {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.8);
   margin-top: 0;
   text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
